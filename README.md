@@ -72,7 +72,7 @@ return (
 - JavaScript;
 - Sweat 😫.
 
-## Test the project yourself: [Teste the project here!!!](#)
+## Test the project yourself: [Teste the project here!!!](https://wassup-iota.vercel.app/)
 
 ### You can:
 
