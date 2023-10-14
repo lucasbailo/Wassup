@@ -3,6 +3,7 @@ import styles from "./SobreMim.module.css";
 import PostModelo from "componentes/PostModelo";
 import fotoCapa from "assets/sobre_mim_capa.png";
 import fotoSobreMim from "assets/sobre_mim_foto.png";
+import fotoJu from "assets/foto_ju.jpeg";
 
 export default function SobreMim() {
     return (
@@ -30,7 +31,7 @@ export default function SobreMim() {
                 Já na faculdade, consegui um estágio não remunerado em uma metalúrgica de José Bonifácio/SP. Após um tempo de procura, com minhas habilidades em excel, finalmente consegui um estágio remunerado em uma empresa de produtos hospitalares em São José do Rio Preto. Nessa mesma empresa consegui meu primeiro trabalho de carteira assinada após 6 meses de estágio.
             </p>
             <p className={styles.paragrafo}>
-                Já havia terminado a faculdade então, resolvi mudar de empresa pois estava me sentindo deixado de lado, então comecei a enviar currículos. Uma semana depois fui chamado para uma entrevista em uma empresa de consórcios na mesma cidade, passei nos testes, entrei para empresa e finalmente me mudei para Rio Preto, pois eu ia para lá de ônibos todo santo dia.
+                Já havia terminado a faculdade então, resolvi mudar de empresa pois estava me sentindo deixado de lado, então comecei a enviar currículos. Uma semana depois fui chamado para uma entrevista em uma empresa de consórcios na mesma cidade, passei nos testes, entrei para empresa e finalmente me mudei para Rio Preto, pois eu ia para lá de ônibus todo santo dia.
             </p>
             <p className={styles.paragrafo}>
                 Nessa empresa me inscrevi para o programa Trainee duas vezes e só no segundo ano que fui aprovado. Durante o programa de trainee, senti que se aproveitaram muito da minha capacidade já que eu não tinha mais banco de horas, então eu trabalhava o dia todo praticamente. Logo no início do programa, já perdi 2 colaboradores do time, que foram para outras empresas e, 2 meses depois, meu chefe mudou de área, me deixando sozinho em uma área que era de 4 pessoas. Com isso, mesmo sendo trainee, tive que entrevistar, contratar e treinar pessoas, praticamente fazendo o papel de gestor da área, apenas na função, mas nada em papel assinado. Após a finalização do programa trainee, fui efetivado para Pleno, e não achei muito justo devido a quantidade de entregas que eu havia feito no ano do programa.
@@ -49,6 +50,21 @@ export default function SobreMim() {
             <p className={styles.paragrafo}>
                 <b>Obs:</b> Ainda não fui chamado para nenhuma entrevista.
             </p>
+            <img
+                src={fotoJu}
+                alt="Foto do Lucas Bailo sorrindo"
+                className={styles.fotoSobreMim}
+            />
+            <p className={styles.paragrafo}>
+                No mais, não posso reclamar das casualidades que me trouxeram até aqui no momento. No final de 2022 sofri um acidente que poderia ter sido letal e saí de lá praticamente ileso. Também, voltando para cá, conheci o amor da minha vida, como vocês podem ver na foto ao lado. Praticamente a única coisa que me bota para cima e me dá forças para continuar lutando é ela, sou muito grato por tudo que ela é e faz por mim.
+            </p>
+            <p className={styles.paragrafo}>
+                Por fim, comecei um novo hobby, a corrida. Comecei caminhando para fazer minha "reabilitação" pós acidente e fui me permitindo a correr. Depois de alguns meses fiz minha primeira prova de corrida (7km), em Holambra/SP, onde eu e a Ju tivemos uma viagem maravilhosa apesar do trânsito e da chuva no caminho de ida. Em novembro, faremos nossa primeira corrida juntos em São Paulo (capital) e no dia seguinte vamos assistir um show da banda que a Ju tanto gosta, The Lumineers.
+            </p>
+            <p className={styles.paragrafo}>
+                É só o começo!
+            </p>
+            
         </PostModelo>
     )
 }
